@@ -1,0 +1,73 @@
+.freelancer-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.freelancer-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #fff, #aaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.freelancer-container p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.freelancer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+
+.freelancer-card {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.freelancer-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.05);
+}
+
+.freelancer-icon {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.freelancer-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.freelancer-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.hire-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #444;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hire-btn:hover {
+  background: #222;
+}

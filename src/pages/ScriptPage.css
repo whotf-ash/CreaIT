@@ -1,0 +1,100 @@
+/* Use your dark site theme */
+.script-page {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+.script-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.script-header h1 {
+  font-size: 2.8rem;
+  background: linear-gradient(90deg, #ffffff, #aaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.script-header p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* Form Layout */
+.script-form {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #eee;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: white;
+  font-size: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.generate-btn {
+  width: 100%;
+  padding: 14px;
+  background: transparent;
+  border: 1px solid #666;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.generate-btn:hover {
+  background: #222;
+}
+
+/* Output Area */
+.script-output {
+  text-align: left;
+}
+
+.output-box {
+  background: #000;
+  border: 1px solid #333;
+  padding: 25px;
+  border-radius: 12px;
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  color: #f8f8f8;
+}
+
+.loading {
+  color: #aaa;
+  font-style: italic;
+}
